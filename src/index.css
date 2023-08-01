@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+section {
+  min-height: 150vh;
+  padding-top: 15vh;
+  padding-left: 10vh;
+}

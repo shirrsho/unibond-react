@@ -1,0 +1,46 @@
+#products{
+    background-color: white;
+    z-index: 5;
+}
+
+.gallery-hor{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+.horbox{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    border: 1px solid red;
+    width: fit-content;
+    overflow: hidden;
+}
+
+.category{
+    max-width: 150px;
+    max-height: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-right: 20px;
+    animation: slide 1s infinite linear;
+}
+
+.category-image{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+  }
