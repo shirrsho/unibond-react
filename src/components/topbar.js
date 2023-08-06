@@ -34,7 +34,7 @@ function Topbar() {
     <nav id="navbar" className="navbarclass">
         <ul>
             {/* <li><a href="./about.html">ABOUT</a></li> */}
-            <li><a href="./products.html">PRODUTCS</a></li>
+            <li><a href="#products">PRODUTCS</a></li>
             <li><a href="./services.html">SERVICES</a></li>
             <li><a href="./services.html">TEAM</a></li>
             <li><a href="./contact.html">CONTACT</a></li>

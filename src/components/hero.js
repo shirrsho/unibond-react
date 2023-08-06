@@ -3,7 +3,7 @@ import '../styles/homepage.css'
 
 function Hero() {
   return (
-    <section>
+    <section style={{height:'100vh'}}>
         <div className="hero-text">
             <img id="logoImage" src="images/logos/sq-white.png" alt="Logo" className="logo"/>
             <h1>UNIBOND</h1>

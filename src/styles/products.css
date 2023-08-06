@@ -1,5 +1,5 @@
 #products{
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.9);
     z-index: 5;
 }
 
@@ -13,10 +13,24 @@
     display: flex;
     flex-direction: row;
     margin-left: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: fit-content;
-    overflow: hidden;
+    max-width: 700px;
+    /* overflow: hidden; */
 }
+
+/* .slick-prev:before,.slick-next:before {
+    color: red;
+  } */
+
+/* .slick-prev {
+    left: 3% !important;
+    z-index: 1000;
+  }
+  .slick-next {
+    right: 3% !important;
+    z-index: 1000;
+  } */
 
 .category{
     max-width: 150px;
@@ -26,7 +40,7 @@
     gap: 10px;
     align-items: center;
     margin-right: 20px;
-    animation: slide 1s infinite linear;
+    /* animation: slide 1s infinite linear; */
 }
 
 .category-image{
@@ -36,11 +50,76 @@
     overflow: hidden;
 }
 
-@keyframes slide {
+/* @keyframes slide {
     from{
         transform: translateX(0);
     }
     to{
         transform: translateX(-100%);
     }
+  } */
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    max-width: 85vw;
+    /* justify-content: center; */
+    /* margin-left: auto; */
+    /* border: 1px solid red; */
+    /* width: fit-content; */
+    /* overflow: hidden; */
+}
+
+.first, .second, .third, .fourth {
+    max-width: 250px;
+    margin-right: 10px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+
+.toggle-label {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+
+.toggle-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-span {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2c3e5000;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.3s;
+    border-radius: 30px;
+}
+
+.toggle-span:before {
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 25px;
+    left: 3px;
+    bottom: 2.6px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transition: 0.3s;
   }
+  
+  .toggle-input:checked + span {
+    background-color: #ffffff00;
+  }
+  
+  .toggle-input:checked + span:before {
+    transform: translateX(29px);
+  }
+  
