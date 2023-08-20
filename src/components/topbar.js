@@ -36,7 +36,7 @@ function Topbar() {
             {/* <li><a href="./about.html">ABOUT</a></li> */}
             <li><a href="#products">PRODUTCS</a></li>
             <li><a href="./services.html">SERVICES</a></li>
-            <li><a href="./services.html">TEAM</a></li>
+            <li><a href="#team">TEAM</a></li>
             <li><a href="./contact.html">CONTACT</a></li>
         </ul>
     </nav>

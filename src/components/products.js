@@ -116,7 +116,7 @@ function Products() {
                         <div class="fourth"><img src="./images/bg2.jpg"/><small>Black Saree</small></div>
                         <div class="fourth"><img src="./images/bg1.jpg"/><small>Black Saree</small></div>
                     </Slider>}
-                <div style={{height:'400px'}}></div>
+                {/* <div style={{height:'400px'}}></div> */}
         </section>
     )
 }

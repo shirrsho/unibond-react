@@ -1,0 +1,20 @@
+#team{
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 5;
+}
+
+.gallery-hor{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+.horbox{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    /* border: 1px solid red; */
+    width: fit-content;
+    max-width: 900px;
+    /* overflow: hidden; */
+}
