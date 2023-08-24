@@ -16,6 +16,7 @@
     /* border: 1px solid red; */
     width: fit-content;
     max-width: 700px;
+    height: max-content;
     /* overflow: hidden; */
 }
 
@@ -44,8 +45,8 @@
 }
 
 .category-image{
-    max-width: 150px;
-    max-height: 150px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
 }
