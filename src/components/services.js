@@ -5,10 +5,10 @@ import '../styles/services.css'
 function Services() {
   return (
     <section id="services">
-    <div className='section-title mb-20'>Services</div>
+    <div className='section-title mb-5'>Services</div>
     <div style={{
         display:'flex',
-        gap:'10px',
+        gap:'10px'
     }}>
     <Card style={{
             borderRadius:'5%',
@@ -83,7 +83,7 @@ function Services() {
       </p>
     </Card>
     </div>
-<div className="mt-20">
+<div className="pt-20 mt-20">
   <div className="-black h-screen">
     <div className="row-span-2 grid h-3/5 grid-cols-5 bg-red-1000 p-1 shadow-lg">
       <div className="row-span-2 border border-black pl-4 pt-4 transition-transform hover:scale-105 mr-2">

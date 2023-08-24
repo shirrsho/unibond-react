@@ -13,7 +13,7 @@ function Profile() {
         <WashAnimated
           image={
             <Avatar
-              name="James Jones"
+              name="Nakib Azad"
               src="https://i.ibb.co/2Fc00R3/james.jpg"
             />
           }
@@ -22,7 +22,7 @@ function Profile() {
             <Text align="center" color="white">
               <Link href="#">
                 <Box paddingX={3} paddingY={1}>
-                  James Jones
+                  Nakib Azad
                 </Box>
               </Link>
             </Text>
